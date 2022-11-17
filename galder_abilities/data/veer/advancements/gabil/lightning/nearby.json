@@ -1,0 +1,12 @@
+{
+    "criteria": {
+
+        "requirement":{
+            "trigger": "lightning_strike",
+            "conditions": {}
+        }
+    },
+    "rewards": {
+        "function": "veer:gabil/lightning/nearby"
+    }
+}

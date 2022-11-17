@@ -1,0 +1,18 @@
+{
+    "parent": "veer:gabil/anthology/squatle",
+    "display": {
+        "icon": {
+            "item": "shield"
+        },
+        "title": "Half-Desk",
+        "description": "Crouching gives you and nearby entities resistance and slowness. Involuntarily triggers at low health.",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "frame": "goal"
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "tick"
+        }
+    }
+}

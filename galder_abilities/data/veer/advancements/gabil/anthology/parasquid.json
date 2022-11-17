@@ -1,0 +1,18 @@
+{
+    "parent": "veer:gabil/anthology/root",
+    "display": {
+        "icon": {
+            "item": "glow_ink_sac"
+        },
+        "title": "Parasquid",
+        "description": "",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "frame": "goal"
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "tick"
+        }
+    }
+}

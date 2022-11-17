@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "hurt": {
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "veer:gabil/squid_fly/ink"
+    }
+
+}

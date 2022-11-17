@@ -1,0 +1,18 @@
+{
+    "replace": false,
+    "values": [
+        "veer:gabil/boa_weakness/remove",
+        "veer:gabil/fire_weakness/remove",
+        "veer:gabil/fish/remove",
+        "veer:gabil/hang_climb/remove",
+        "veer:gabil/light_sf/remove",
+        "veer:gabil/magnetic/remove",
+        "veer:gabil/parasquid/remove",
+        "veer:gabil/smite/remove",
+        "veer:gabil/spider/remove",
+        "veer:gabil/squat/remove",
+        "veer:gabil/undead/remove",
+        "veer:gabil/water_walk/remove",
+        "veer:gabil/water_weakness/remove"
+    ]
+}

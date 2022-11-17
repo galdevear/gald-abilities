@@ -1,0 +1,17 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "head": {
+                "items": [
+                    "soul_lantern",
+                    "soul_torch",
+                    "soul_campfire",
+                    "soul_sand",
+                    "soul_soil"
+                ]
+            }
+        }
+    }
+}

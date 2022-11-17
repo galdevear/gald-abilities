@@ -1,0 +1,37 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {}
+            }
+          ],
+          "damage": {
+            "blocked": false,
+            "type": {
+              "is_projectile": true,
+              "source_entity": {
+                "equipment": {
+                  "head": {
+                    "items": [
+                      "minecraft:bell"
+                    ]
+                  }
+                }
+              },
+              "direct_entity": {
+                "type": "minecraft:spectral_arrow"
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "veer:gabil/bell_hat/toll_the_hunted"
+    }
+}

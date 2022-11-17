@@ -1,0 +1,8 @@
+{
+    "criteria": {
+        "tag_sniper":
+        {
+            "trigger": "impossible"
+        }
+    }
+}

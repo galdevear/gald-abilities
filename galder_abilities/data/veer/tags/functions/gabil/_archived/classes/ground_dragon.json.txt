@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "veer:gabil/inc_n_abils",
+        "#veer:gabil/traits/cold_blooded"
+    ]
+}

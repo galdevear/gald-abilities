@@ -1,0 +1,25 @@
+[
+    {
+        "condition": "alternative",
+        "terms": [
+            {
+                "condition": "location_check",
+                "predicate": {
+                    "biome": "desert"
+                }
+            },
+            {
+                "condition": "location_check",
+                "predicate": {
+                    "biome": "desert_hills"
+                }
+            },
+            {
+                "condition": "location_check",
+                "predicate": {
+                    "biome": "soul_sand_valley"
+                }
+            }
+        ]
+    }
+]

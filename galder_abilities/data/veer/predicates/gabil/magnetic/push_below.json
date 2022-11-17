@@ -1,0 +1,53 @@
+[
+    
+    {
+        "condition": "alternative",
+        "terms": [
+            {
+                "offsetY": 0,
+                "condition": "location_check",
+                "predicate": {
+                    "block": {
+                        "tag": "veer:gabil/magnetic/netherite"
+                    }
+                }
+            },
+            {
+                "offsetY": -1,
+                "condition": "location_check",
+                "predicate": {
+                    "block": {
+                        "tag": "veer:gabil/magnetic/netherite"
+                    }
+                }
+            },
+            {
+                "offsetY": -2,
+                "condition": "location_check",
+                "predicate": {
+                    "block": {
+                        "tag": "veer:gabil/magnetic/netherite"
+                    }
+                }
+            },
+            {
+                "offsetY": -3,
+                "condition": "location_check",
+                "predicate": {
+                    "block": {
+                        "tag": "veer:gabil/magnetic/netherite"
+                    }
+                }
+            },
+            {
+                "offsetY": -4,
+                "condition": "location_check",
+                "predicate": {
+                    "block": {
+                        "tag": "veer:gabil/magnetic/netherite"
+                    }
+                }
+            }
+        ]
+    }
+]

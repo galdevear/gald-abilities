@@ -1,0 +1,8 @@
+##
+ # sand_in_eye.mcfunction
+ # 
+ #
+ # Created by Galdeveer.
+##
+
+execute unless entity @s[tag=!veer.gabil.huge_eye, name=!"Devon_Huge"] run function veer:gabil/huge_eye/sand_in_eye-1

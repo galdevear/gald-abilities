@@ -1,0 +1,18 @@
+{
+    "parent": "veer:gabil/anthology/root",
+    "display": {
+        "icon": {
+            "item": "dragon_head"
+        },
+        "title": "Ground Dragon",
+        "description": "",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "frame": "goal"
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "tick"
+        }
+    }
+}

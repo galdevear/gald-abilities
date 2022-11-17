@@ -1,0 +1,18 @@
+{
+    "parent": "veer:gabil/anthology/parasquid",
+    "display": {
+        "icon": {
+            "item": "powder_snow_bucket"
+        },
+        "title": "Flying Squid",
+        "description": "Low-grav. Normal grav when crouching. Might add slight jump boost in some cases as QOL. Slow fall instead when crawling/swimming/flying. Launch upwards and clear glowing when damaged.",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "frame": "goal"
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "tick"
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "criteria": {
+        "equip":{
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "veer:gabil/soul_forged_hat"
+                    }
+                ],
+                "player": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "head": {
+                                    "tag": "veer:gabil/soul_forged_hat"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "veer:gabil/soul_forged_hat/equip"
+    }
+}

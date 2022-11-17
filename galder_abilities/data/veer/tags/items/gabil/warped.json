@@ -1,0 +1,23 @@
+{
+    "replace": false,
+    "values": [
+        "warped_fence_gate",
+        "warped_fence",
+        "warped_door",
+        "warped_fungus",
+        "warped_hyphae",
+        "warped_nylium",
+        "warped_planks",
+        "warped_pressure_plate",
+        "warped_roots",
+        "warped_sign",
+        "warped_slab",
+        "warped_stairs",
+        "warped_stem",
+        "stripped_warped_stem",
+        "stripped_warped_hyphae",
+        "warped_wart_block",
+        "warped_trapdoor",
+        "warped_button"
+    ]
+}

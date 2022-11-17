@@ -1,0 +1,21 @@
+##
+ # trigger_remove-a.mcfunction
+ # 
+ #
+ # Created by Galdeveer.
+##
+
+execute if score @s android.battery.remove matches 1.. if score @s veer.ga.nAbils matches 1.. run function #veer:gabil/traits/magnetic
+execute if score @s android.magnetic.remove matches 1.. if score @s veer.ga.nAbils matches 1.. run function #veer:gabil/traits/magnetic
+# execute if score @s chimender.phase.remove matches 1.. if score @s veer.ga.nAbils matches 1.. run function #veer:gabil/traits/magnetic
+# execute if score @s chimender.teleport.remove matches 1.. if score @s veer.ga.nAbils matches 1.. run function #veer:/traits/magnetic
+execute if score @s coral_golem.aquatect.remove matches 1.. if score @s veer.ga.nAbils matches 1.. run function #veer:gabil/traits/aquatect
+execute if score @s coral_golem.hydrate.remove matches 1.. if score @s veer.ga.nAbils matches 1.. run function #veer:gabil/traits/aquatect
+execute if score @s ground_dragon.breath.remove matches 1.. if score @s veer.ga.nAbils matches 1.. run function #veer:gabil/traits/cold_blooded
+execute if score @s ground_dragon.glide.remove matches 1.. if score @s veer.ga.nAbils matches 1.. run function #veer:gabil/traits/cold_blooded
+execute if score @s parasquid.flying_squid.remove matches 1.. if score @s veer.ga.nAbils matches 1.. run function #veer:gabil/traits/flying_squid
+execute if score @s parasquid.snow_cloud.remove matches 1.. if score @s veer.ga.nAbils matches 1.. run function #veer:gabil/traits/flying_squid
+execute if score @s spider.arachnid.remove matches 1.. if score @s veer.ga.nAbils matches 1.. run function #veer:gabil/traits/
+execute if score @s spider.sanity.remove matches 1.. if score @s veer.ga.nAbils matches 1.. run function #veer:gabil/traits/
+execute if score @s squattle.camo.remove matches 1.. if score @s veer.ga.nAbils matches 1.. run function #veer:gabil/traits/
+execute if score @s squattle.shell.remove matches 1.. if score @s veer.ga.nAbils matches 1.. run function #veer:gabil/traits/

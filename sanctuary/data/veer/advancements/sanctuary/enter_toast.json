@@ -1,0 +1,23 @@
+{
+  "parent": "adventure/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:bell"
+    },
+    "title": "SANCTUARY!!!!!",
+    "description": "Protect your self from pvp by entering a village.",
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "enter_sanctuary": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [],
+        "location": {
+          "feature": "village"
+        }
+      }
+    }
+  }
+}

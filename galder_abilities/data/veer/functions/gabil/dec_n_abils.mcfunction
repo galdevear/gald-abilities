@@ -1,0 +1,1 @@
+scoreboard players add @s veer.ga.nAbils 1

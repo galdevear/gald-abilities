@@ -1,0 +1,18 @@
+{
+    "parent": "veer:gabil/anthology/chimender",
+    "display": {
+        "icon": {
+            "item": "end_portal_frame"
+        },
+        "title": "Kite-line",
+        "description": "Slippery anti-grav whenever looking at any entity (Living or not) unless its wearing a pumpkin or dragon head. Dmg launches you upwards during antigrav.",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "frame": "goal"
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "tick"
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:lectern"
+        },
+        "title": "Ancestry",
+        "description": "Plan is to allow picking one class. You can earn the right to pick one ability each from two classes.",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/oak_planks.png",
+        "frame": "task"
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "tick"
+        }
+    },
+    "requirements": [
+        ["tick"]
+    ]
+}

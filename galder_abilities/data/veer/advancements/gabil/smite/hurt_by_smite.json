@@ -1,0 +1,171 @@
+{
+    "criteria": {
+        "player_hurt_by_entity_with_smite_1":{
+            "trigger": "entity_hurt_player",
+            "conditions":
+            {
+                "damage": {
+                    "source_entity": {
+                        "equipment": {
+                            "mainhand": {
+                                "enchantments":
+                                [
+                                    {
+                                        "enchantment": "smite",
+                                        "levels": 1
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "blocked": false,
+                    "type": {
+                        "bypasses_armor": false,
+                        "bypasses_magic": false,
+                        "is_explosion": false,
+                        "is_fire": false,
+                        "is_lightning": false,
+                        "is_magic": false,
+                        "is_projectile": false
+                    }
+                }
+            }
+        },
+        "player_hurt_by_entity_with_smite_2":{
+            "trigger": "entity_hurt_player",
+            "conditions":
+            {
+                "damage": {
+                    "source_entity": {
+                        "equipment": {
+                            "mainhand": {
+                                "enchantments":
+                                [
+                                    {
+                                        "enchantment": "smite",
+                                        "levels": 2
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "blocked": false,
+                    "type": {
+                        "bypasses_armor": false,
+                        "bypasses_magic": false,
+                        "is_explosion": false,
+                        "is_fire": false,
+                        "is_lightning": false,
+                        "is_magic": false,
+                        "is_projectile": false
+                    }
+                }
+            }
+        },
+        "player_hurt_by_entity_with_smite_3":{
+            "trigger": "entity_hurt_player",
+            "conditions":
+            {
+                "damage": {
+                    "source_entity": {
+                        "equipment": {
+                            "mainhand": {
+                                "enchantments":
+                                [
+                                    {
+                                        "enchantment": "smite",
+                                        "levels": 3
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "blocked": false,
+                    "type": {
+                        "bypasses_armor": false,
+                        "bypasses_magic": false,
+                        "is_explosion": false,
+                        "is_fire": false,
+                        "is_lightning": false,
+                        "is_magic": false,
+                        "is_projectile": false
+                    }
+                }
+            }
+        },
+        "player_hurt_by_entity_with_smite_4":{
+            "trigger": "entity_hurt_player",
+            "conditions":
+            {
+                "damage": {
+                    "source_entity": {
+                        "equipment": {
+                            "mainhand": {
+                                "enchantments":
+                                [
+                                    {
+                                        "enchantment": "smite",
+                                        "levels": 4
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "blocked": false,
+                    "type": {
+                        "bypasses_armor": false,
+                        "bypasses_magic": false,
+                        "is_explosion": false,
+                        "is_fire": false,
+                        "is_lightning": false,
+                        "is_magic": false,
+                        "is_projectile": false
+                    }
+                }
+            }
+        },
+        "player_hurt_by_entity_with_smite_5":{
+            "trigger": "entity_hurt_player",
+            "conditions":
+            {
+                "damage": {
+                    "source_entity": {
+                        "equipment": {
+                            "mainhand": {
+                                "enchantments":
+                                [
+                                    {
+                                        "enchantment": "smite",
+                                        "levels": 5
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "blocked": false,
+                    "type": {
+                        "bypasses_armor": false,
+                        "bypasses_magic": false,
+                        "is_explosion": false,
+                        "is_fire": false,
+                        "is_lightning": false,
+                        "is_magic": false,
+                        "is_projectile": false
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "player_hurt_by_entity_with_smite_1",
+            "player_hurt_by_entity_with_smite_2",
+            "player_hurt_by_entity_with_smite_3",
+            "player_hurt_by_entity_with_smite_4",
+            "player_hurt_by_entity_with_smite_5"
+        ]
+    ],
+    "rewards": {
+        "function": "veer:gabil/smite/hurt_by_smite"
+    }
+}

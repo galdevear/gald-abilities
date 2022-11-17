@@ -1,0 +1,28 @@
+{
+    "criteria": {
+        "hit_by_undead":
+        {
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "blocked": false,
+                    "type": {
+                        "is_projectile": false,
+                        "is_lightning": false,
+                        "is_magic": false
+                    },
+                    "source_entity": {
+                        "player": {
+                            "advancements": {
+                                "veer:gabil/undead/tag": true
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "veer:gabil/undead/hit_by_undead"
+    }
+}

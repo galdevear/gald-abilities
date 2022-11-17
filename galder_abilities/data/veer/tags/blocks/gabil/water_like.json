@@ -1,0 +1,12 @@
+{
+    "replace": false,
+    "values": [
+        "water",
+        "water_cauldron",
+        "seagrass",
+        "tall_seagrass",
+        "bubble_column",
+        "kelp",
+        "kelp_plant"
+    ]
+}

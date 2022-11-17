@@ -1,0 +1,743 @@
+[
+    {
+        "condition": "entity_properties",
+        "entity": "this",
+        "predicate": {
+            "location": {
+                "position": {
+                    "y": {
+                        "min":30
+                    }
+                }
+            }
+        }
+    },
+    {
+        "condition": "inverted",
+        "term": {
+            "condition": "alternative",
+            "terms": [
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 1,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 2,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 3,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 4,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 5,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 6,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 7,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 8,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 9,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 10,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 11,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 12,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 13,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 14,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 15,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 16,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 17,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 18,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 19,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 20,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 21,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 22,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 23,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 24,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 25,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 26,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 27,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 28,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 29,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 30,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 31,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 32,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 33,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 34,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 35,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 36,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 37,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 38,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 39,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 40,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 41,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 42,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 43,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 44,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 45,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 46,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 47,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 48,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 49,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 50,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 51,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 52,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 53,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 54,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 55,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 56,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 57,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 58,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 59,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 60,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 61,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 62,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 63,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 64,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 65,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 66,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 67,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 68,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 69,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 70,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 71,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 72,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 73,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 74,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 75,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 76,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 77,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 78,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 79,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "offsetY": 80,
+                        "condition": "location_check",
+                        "entity": "this",
+                        "predicate": {"block": {"tag": "veer:gabil/air"}}
+                    }
+                }
+            ]
+        }
+    }
+]

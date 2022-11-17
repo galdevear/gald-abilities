@@ -1,0 +1,18 @@
+{
+    "parent": "veer:gabil/anthology/ground_dragon",
+    "display": {
+        "icon": {
+            "item": "dragon_egg"
+        },
+        "title": "Draconic Ancestry",
+        "description": "% speed increase. Slowfall and jump boost when crouching in the light and when not crouching in the dark. Might change to using item so it can be detected with elytra flight",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "frame": "goal"
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "tick"
+        }
+    }
+}

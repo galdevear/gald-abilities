@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "veer:gabil/inc_n_abils_x2",
+        "veer:gabil/spider/add",
+        "veer:gabil/boa_weakness/add"
+    ]
+}

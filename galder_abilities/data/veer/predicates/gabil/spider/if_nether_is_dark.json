@@ -1,0 +1,27 @@
+[
+  {
+    "condition": "alternative",
+    "terms": [
+      {
+        "condition": "inverted",
+        "term": {
+          "condition": "location_check",
+          "predicate": {
+            "dimension": "the_nether"
+          }
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "light": {
+            "light": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,39 @@
+##
+ # trigger_add-a.mcfunction
+ # 
+ #
+ # Created by Galdeveer.
+##
+
+# Add
+# Don't forget to untrigger
+
+execute if score @s join_class matches 2 if score @s veer.ga.nAbils matches ..1 run function #veer:gabil/traits/android/battery-add
+execute if score @s join_class matches 3 if score @s veer.ga.nAbils matches ..1 run function #veer:gabil/traits/android/magnetic-remove
+execute if score @s join_class matches 5 if score @s veer.ga.nAbils matches ..1 run function #veer:gabil/traits/chimender/phase-add
+execute if score @s join_class matches 6 if score @s veer.ga.nAbils matches ..1 run function #veer:gabil/traits/chimender/teleport-add
+execute if score @s join_class matches 8 if score @s veer.ga.nAbils matches ..1 run function #veer:gabil/traits/coral_golem/aquatect-add
+execute if score @s join_class matches 9 if score @s veer.ga.nAbils matches ..1 run function #veer:gabil/traits/coral_golem/hydrate-remove
+execute if score @s join_class matches 11 if score @s veer.ga.nAbils matches ..1 run function #veer:gabil/traits/ground_dragon/breath-add
+execute if score @s join_class matches 12 if score @s veer.ga.nAbils matches ..1 run function #veer:gabil/traits/ground_dragon/glide-remove
+execute if score @s join_class matches 14 if score @s veer.ga.nAbils matches ..1 run function #veer:gabil/traits/parasquid/flight-add
+execute if score @s join_class matches 15 if score @s veer.ga.nAbils matches ..1 run function #veer:gabil/traits/parasquid/snow-add
+execute if score @s join_class matches 17 if score @s veer.ga.nAbils matches ..1 run function #veer:gabil/traits/spider/arachnid-add
+execute if score @s join_class matches 18 if score @s veer.ga.nAbils matches ..1 run function #veer:gabil/traits/spider/sanity-add
+execute if score @s join_class matches 20 if score @s veer.ga.nAbils matches ..1 run function #veer:gabil/traits/squattle/camo-add
+execute if score @s join_class matches 21 if score @s veer.ga.nAbils matches ..1 run function #veer:gabil/traits/squattle/shell-add
+
+# execute if score @s android.battery matches 1.. if score @s veer.ga.nAbils matches ..1 run function #veer:gabil/traits/android/battery-add
+# execute if score @s android.magnetic matches 1.. if score @s veer.ga.nAbils matches ..1 run function #veer:gabil/traits/android/magnetic-remove
+# # execute if score @s chimender.phase matches 1.. if score @s veer.ga.nAbils matches ..1 run function #veer:gabil/traits/phase
+# # execute if score @s chimender.teleport matches 1.. if score @s veer.ga.nAbils matches ..1 run function #veer:/traits/teleport
+# execute if score @s coral_golem.aquatect matches 1.. if score @s veer.ga.nAbils matches ..1 run function #veer:gabil/traits/coral_golem/aquatect-add
+# execute if score @s coral_golem.hydrate matches 1.. if score @s veer.ga.nAbils matches ..1 run function #veer:gabil/traits/coral_golem/hydrate-remove
+# execute if score @s ground_dragon.breath matches 1.. if score @s veer.ga.nAbils matches ..1 run function #veer:gabil/traits/ground_dragon/breath-add
+# execute if score @s ground_dragon.glide matches 1.. if score @s veer.ga.nAbils matches ..1 run function #veer:gabil/traits/ground_dragon/glide-remove
+# execute if score @s parasquid.flying_squid matches 1.. if score @s veer.ga.nAbils matches ..1 run function #veer:gabil/traits/parasquid/flight-add
+# execute if score @s parasquid.snow_cloud matches 1.. if score @s veer.ga.nAbils matches ..1 run function #veer:gabil/traits/parasquid/snow-add
+# execute if score @s spider.arachnid matches 1.. if score @s veer.ga.nAbils matches ..1 run function #veer:gabil/traits/spider/arachnid-add
+# execute if score @s spider.sanity matches 1.. if score @s veer.ga.nAbils matches ..1 run function #veer:gabil/traits/spider/sanity-add
+# execute if score @s squattle.camo matches 1.. if score @s veer.ga.nAbils matches ..1 run function #veer:gabil/traits/squattle/camo-add
+# execute if score @s squattle.shell matches 1.. if score @s veer.ga.nAbils matches ..1 run function #veer:gabil/traits/squattle/shell-add

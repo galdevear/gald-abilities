@@ -1,0 +1,36 @@
+[
+    {
+        "condition": "inverted",
+        "term": {
+            "condition": "reference",
+            "name": "veer:gabil/power_squat/has_leggings"
+        }
+    },
+    {
+        "condition": "alternative",
+        "terms": [
+            {
+                "condition": "inverted",
+                "term": {
+                    "condition": "reference",
+                    "name": "veer:gabil/power_squat/has_boots"
+                }
+            },
+            {
+                "condition": "inverted",
+                "term": {
+                    "condition": "reference",
+                    "name": "veer:gabil/power_squat/has_chestplate"
+                }
+            },
+            {
+                "condition": "inverted",
+                "term": {
+                    "condition": "reference",
+                    "name": "veer:gabil/power_squat/has_helmet"
+                }
+            }
+        ]
+    }
+
+]

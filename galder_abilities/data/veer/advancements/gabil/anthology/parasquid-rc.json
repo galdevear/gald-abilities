@@ -1,0 +1,18 @@
+{
+    "parent": "veer:gabil/anthology/parasquid",
+    "display": {
+        "icon": {
+            "item": "potion"
+        },
+        "title": "Permeable Membrane",
+        "description": "Starting to use consumable liquids produces a snow at your feet which can be used as a platform midair. Extra susceptible to magic damage.",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "frame": "goal"
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "tick"
+        }
+    }
+}

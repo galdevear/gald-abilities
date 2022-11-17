@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "drink_water":{
+      "trigger": "consume_item",
+      "conditions": {
+        "item": {
+          "potion": "water"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "veer:gabil/huge_eye/drink_water"
+  }
+}

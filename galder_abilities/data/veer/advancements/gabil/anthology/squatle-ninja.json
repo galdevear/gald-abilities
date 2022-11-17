@@ -1,0 +1,18 @@
+{
+    "parent": "veer:gabil/anthology/squatle",
+    "display": {
+        "icon": {
+            "item": "golden_carrot"
+        },
+        "title": "Ninja Squatle",
+        "description": "Gain Invis (no particles) if crawl/swim/fly. If you stop crawl/swim/fly, you have 10 seconds before it runs out.\n Fire, glowing, and lightning cause mining fatigue.\nBonus: Instacrawl",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "frame": "goal"
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "tick"
+        }
+    }
+}

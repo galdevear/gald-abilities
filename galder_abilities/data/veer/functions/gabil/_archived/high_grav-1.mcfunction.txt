@@ -1,0 +1,8 @@
+##
+ # high_grav-1.mcfunction
+ # 
+ #
+ # Created by .
+##
+
+effect give @s[predicate=!veer:gabil/ethereal/has_jump_boost, predicate=veer:gabil/ethereal/high_grav] jump_boost 2 230 true

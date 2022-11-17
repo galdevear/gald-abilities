@@ -1,0 +1,27 @@
+[
+    {
+        "condition": "alternative",
+        "terms": [
+            {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "effects": {
+                        "night_vision": {}
+                    }
+                }
+            },
+            {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "head": {
+                            "tag": "veer:gabil/huge_eye/eye_protection"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+]

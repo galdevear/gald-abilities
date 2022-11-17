@@ -1,0 +1,28 @@
+{
+    "criteria": {
+      "wearing_sniper_scope":
+      {
+        "trigger": "location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "head": {"items": ["spyglass"]}
+                }
+              }
+            },
+            {
+              "condition": "reference",
+              "name": "veer:gabil/is_sneaking"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "veer:gabil/spyglass_hat/sniper_scope"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "parent": "veer:gabil/anthology/ground_dragon",
+    "display": {
+        "icon": {
+            "item": "dragon_breath"
+        },
+        "title": "Dragon breath",
+        "description": "While right clicking any item you use by holding right click (not instant) you breath dragon-fire (instant damage effect), but are inflicted with weakness. Adjusted not to hurt the player while flying?",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "frame": "goal"
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "tick"
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "parent": "veer:gabil/anthology/root",
+    "display": {
+        "icon": {
+            "item": "brain_coral"
+        },
+        "title": "Coral Golem",
+        "description": "",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "frame": "goal"
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "tick"
+        }
+    }
+}

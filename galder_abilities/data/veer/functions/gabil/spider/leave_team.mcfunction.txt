@@ -1,0 +1,8 @@
+##
+ # return_to_team.mcfunction
+ # 
+ #
+ # Created by Galdeveer.
+##
+
+team leave veer.ga.spider

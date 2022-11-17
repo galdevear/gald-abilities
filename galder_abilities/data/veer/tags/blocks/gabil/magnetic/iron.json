@@ -1,0 +1,15 @@
+{
+    "values": [
+        "raw_iron_block",
+        "#anvil",
+        "iron_bars",
+        "iron_door",
+        "iron_trapdoor",
+        "iron_block",
+        "heavy_weighted_pressure_plate",
+        "chain",
+        "lantern",
+        "soul_lantern",
+        "#cauldrons"
+    ]
+}

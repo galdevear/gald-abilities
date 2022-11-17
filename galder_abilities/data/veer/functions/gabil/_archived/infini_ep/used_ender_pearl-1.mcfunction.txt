@@ -1,0 +1,2 @@
+execute if score @s veer.ga.usePearl matches 1.. run give @s ender_pearl
+execute if score @s veer.ga.usePearl matches 1.. run scoreboard players set @s veer.ga.usePearl 0

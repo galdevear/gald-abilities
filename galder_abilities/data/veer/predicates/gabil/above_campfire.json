@@ -1,0 +1,27 @@
+[
+    {
+        "condition": "alternative",
+        "terms": [
+            {
+                "condition": "location_check",
+                "offsetY": 1,
+                "predicate": {
+                    "smokey": true
+                }
+            },
+            {
+                "condition": "location_check",
+                "predicate": {
+                    "smokey": true
+                }
+            },
+            {
+                "condition": "location_check",
+                "offsetY": -4,
+                "predicate": {
+                    "smokey": true
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,19 @@
+[
+    {
+        "condition": "alternative",
+        "terms": [
+            {
+                "condition": "weather_check",
+                "raining": true
+            },
+            {
+                "condition": "weather_check",
+                "thundering": true
+            }
+        ]
+    },
+    {
+        "condition": "reference",
+        "name": "veer:gabil/under_sky"
+    }
+]

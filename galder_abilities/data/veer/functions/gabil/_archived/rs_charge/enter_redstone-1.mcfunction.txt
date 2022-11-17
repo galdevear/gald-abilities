@@ -1,0 +1,10 @@
+##
+ # enter_water.mcfunction
+ #
+ # Created by Galdeveer.
+##
+
+# effect give @s mining_fatigue 2 2 true
+# effect give @s slowness 1 5 true
+execute if entity @s[predicate=veer:gabil/robot/1] run effect give @s saturation 1 0 false
+advancement revoke @s only veer:gabil/robot/enter_redstone

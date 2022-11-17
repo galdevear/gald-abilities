@@ -1,0 +1,1 @@
+tag @s remove veer.gabil.magic_weakness

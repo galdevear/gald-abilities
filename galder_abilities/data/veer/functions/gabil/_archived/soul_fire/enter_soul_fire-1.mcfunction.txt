@@ -1,0 +1,9 @@
+##
+ # enter_water.mcfunction
+ #
+ # Created by Galdeveer.
+##
+
+advancement revoke @s only veer:gabil/soul_fire/enter_soul_fire
+
+execute at @s run spawnpoint @s ~ ~1 ~ ~

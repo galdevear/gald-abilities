@@ -1,0 +1,32 @@
+[
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "flags": {
+          "is_on_fire": false,
+          "is_sneaking": true
+        }
+      }
+    },
+    {
+      "condition": "inverted",
+      "term": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "effects": {
+              "levitation":{
+                "duration": {
+                  "min": 3
+                }
+              }
+            }
+          }
+      }
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "veer:gabil/spider/under_string_attachable"
+    }
+  ]

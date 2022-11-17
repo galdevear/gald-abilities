@@ -1,0 +1,12 @@
+##
+ # revoke.json.mcfunction
+ # revoke all related advancements
+ #
+ # Created by Galdeveer.
+##
+
+#declare tag veer.gabil.enteredWater Untag after using so that you can detect if it happened properly
+
+advancement revoke @s only veer:gabil/water_walk/enter_water
+
+tag @s add veer.gabil.enteredWater

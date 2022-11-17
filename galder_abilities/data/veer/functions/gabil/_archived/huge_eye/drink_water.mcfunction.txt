@@ -1,0 +1,8 @@
+##
+ # drink_water.mcfunction
+ # 
+ # Created by Galdeveer.
+##
+#declare tag veer.gabil.huge_eye
+
+execute unless entity @s[tag=!veer.gabil.huge_eye, name=!"Devon_Huge"] run function veer:gabil/huge_eye/drink_water-1

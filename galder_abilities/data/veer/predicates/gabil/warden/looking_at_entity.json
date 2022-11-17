@@ -1,0 +1,18 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "player": {
+            "looking_at": {
+                "flags": {
+                    "is_sneaking": false
+                },
+                "distance": {
+                    "absolute": {
+                        "min": 3.2
+                    }
+                }
+            }
+        }
+    }
+}

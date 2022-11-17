@@ -1,0 +1,20 @@
+[
+    {
+        "condition": "entity_properties",
+        "entity": "this",
+        "predicate": {
+            "effects": {
+                "water_breathing": {
+                    "amplifier": 1
+                }
+            }
+        }
+    },
+    {
+        "condition": "inverted",
+        "term": {
+            "condition": "reference",
+            "name": "veer:gabil/fish/has_water_hat"
+        }
+    }
+]

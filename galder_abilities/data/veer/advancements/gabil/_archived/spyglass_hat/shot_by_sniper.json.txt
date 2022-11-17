@@ -1,0 +1,36 @@
+{
+    "criteria": {
+        "shot_by_sniper":
+        {
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "blocked": false,
+                    "type": {
+                        "is_projectile": true
+                    },
+                    "source_entity": {
+                        "distance": {
+                            "absolute": {
+                                "min": 50
+                            }
+                        },
+                        "equipment": {
+                            "head": {
+                                "items": ["spyglass"]
+                            }
+                        },
+                        "player": {
+                            "advancements": {
+                                "veer:gabil/spyglass_hat/sniper_tag": true
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "veer:gabil/spyglass_hat/shot_by_sniper"
+    }
+}

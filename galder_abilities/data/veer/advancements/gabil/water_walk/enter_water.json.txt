@@ -1,0 +1,76 @@
+{
+  "criteria": {
+    "delay":{
+      "trigger": "location"
+    },
+    "enter_water": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:water"
+      }
+    },
+    "enter_water_cauldron": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:water_cauldron"
+      }
+    },
+    "enter_kelp": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:kelp"
+      }
+    },
+    "enter_kelp_plant": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:kelp_plant"
+      }
+    },
+    "enter_seagrass": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:seagrass"
+      }
+    },
+    "enter_tall_seagrass": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "tall_seagrass"
+      }
+    },
+    "enter_waterlogged_block": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "state": {
+          "waterlogged": "true"
+        }
+      }
+    },
+    "enter_bubble_column": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "bubble_column"
+      }
+    }
+    
+  },
+  "requirements": [
+    [
+      "enter_water_cauldron",
+      "enter_water",
+      "enter_kelp",
+      "enter_kelp_plant",
+      "enter_seagrass",
+      "enter_tall_seagrass",
+      "enter_waterlogged_block",
+      "enter_bubble_column"
+    ],
+    [
+      "delay"
+    ]
+  ],
+  "rewards": {
+    "function": "veer:gabil/water_walk/enter_water"
+  }
+}

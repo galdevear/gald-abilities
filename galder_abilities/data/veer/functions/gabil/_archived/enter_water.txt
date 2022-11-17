@@ -1,0 +1,10 @@
+##
+ # enter_water.mcfunction
+ # 
+ #
+ # Created by Galdeveer.
+##
+#declare tag veer.gabil.robot.ignore
+
+# unless the player is neither Galdeveer, nor MagisterTeacup, penalize.
+execute unless entity @s[name=!"Galdeveer",name=!"MagisterTeacup"] if entity @s[tag=!veer.gabil.robot.ignore] run function veer:gabil/robot/enter_water-1

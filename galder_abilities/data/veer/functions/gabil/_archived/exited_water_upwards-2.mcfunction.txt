@@ -1,0 +1,11 @@
+##
+ # exited_water_upwards-2.mcfunction
+ # 
+ #
+ # Created by Galdeveer.
+##
+
+# First tick give levitation
+
+effect give @s levitation 1 80 true
+tag @s add veer.gabil.fish.cancelJumpLevitation

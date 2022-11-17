@@ -1,0 +1,13 @@
+[
+    {
+        "condition": "entity_properties",
+        "entity": "this",
+        "predicate": {
+            "equipment": {
+                "head": {
+                    "tag": "veer:gabil/fish/air_breathing_hat"
+                }
+            }
+        }
+    }
+]

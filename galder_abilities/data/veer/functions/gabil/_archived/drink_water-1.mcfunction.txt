@@ -1,0 +1,9 @@
+##
+ # drink_water-1.mcfunction
+ # 
+ #
+ # Created by Galdeveer.
+##
+
+effect give @s water_breathing 120 0 true
+advancement revoke @s only veer:gabil/fish/drink_water

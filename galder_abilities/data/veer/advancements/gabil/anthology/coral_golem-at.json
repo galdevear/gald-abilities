@@ -1,0 +1,18 @@
+{
+    "parent": "veer:gabil/anthology/coral_golem",
+    "display": {
+        "icon": {
+            "item": "conduit"
+        },
+        "title": "Aquatect/Bleach",
+        "description": "Conduit power and Slow fall in water and rain. Move quicker when mostly above the water (Not when swimming. It's just for fun). Lightning causes hunger. If on fire, can only move by jumping.",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "frame": "goal"
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "tick"
+        }
+    }
+}

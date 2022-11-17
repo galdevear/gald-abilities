@@ -1,0 +1,3 @@
+
+advancement revoke @s only veer:gabil/spyglass_hat/shot_by_sniper
+effect give @s instant_damage 20 0 true

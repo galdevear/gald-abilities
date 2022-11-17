@@ -1,0 +1,25 @@
+{
+    "replace": false,
+    "values": [
+      "#veer:gabil/air",
+      "tripwire",
+      "tripwire_hook",
+      "redstone_wire",
+      "redstone_torch",
+      "torch",
+      "soul_torch",
+      "wall_torch",
+      "redstone_wall_torch",
+      "soul_wall_torch",
+      "#buttons",
+      "#candles",
+      "#crops",
+      "#flower_pots",
+      "#small_flowers",
+      "#fire",
+      "#portals",
+      "#rails",
+      "#pressure_plates",
+      "#wall_signs"
+    ]
+  }

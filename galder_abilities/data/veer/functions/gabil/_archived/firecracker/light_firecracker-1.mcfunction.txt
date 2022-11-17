@@ -1,0 +1,8 @@
+##
+ # light_firecracker.mcfunction
+ # 
+ #
+ # Created by .
+##
+
+effect give @s[predicate=veer:gabil/firecracker/can_do_firecracker] levitation 1 170

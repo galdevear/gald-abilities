@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "veer:gabil/fish/add",
+        "veer:gabil/water_walk/add",
+        "veer:gabil/fire_weakness/add"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "parent": "veer:gabil/anthology/spider",
+    "display": {
+        "icon": {
+            "item": "cobweb"
+        },
+        "title": "Arachnid",
+        "description": "Climb solid blocks and tripwire. Walk on tripwire. Blindness from bane of arphropods and shovels.",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "frame": "goal"
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "tick"
+        }
+    }
+}

@@ -1,0 +1,21 @@
+##
+ # exited_water_upwards.mcfunction
+ # 
+ #
+ # Created by Galdeveer.
+##
+#declare tag veer.gabil.fish.inWater
+#declare tag veer.gabil.fish.leftWater
+#declare tag veer.gabil.fish.cancelJumpLevitation
+
+# Advancement tags it with it being in the water
+# This file checks removes said tag if it is no longer in the water.
+# The advancement will readd it when the player goes back in water.
+
+#If player has left the water, swap inWater tag with leftWater
+
+execute if entity @s[tag=veer.gabil.fish.inWater] at @s if block ~ ~ ~ #veer:gabil/fish/air_like if block ~ ~1 ~ #veer:gabil/fish/air_like run tag @s add veer.gabil.fish.leftWater
+tag @s[tag=veer.gabil.fish.leftWater] remove veer.gabil.fish.inWater
+
+# Second tick remove levitation and leftWater tag
+execute if entity @s[tag=veer.gabil.fish.leftWater] run function veer:gabil/fish/exited_water_upwards-2

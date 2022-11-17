@@ -1,0 +1,8 @@
+##
+ # sand_in_eye-1.mcfunction
+ # 
+ #
+ # Created by Galdeveer.
+##
+
+execute if entity @s[predicate=veer:gabil/huge_eye/sandy_biome, predicate=!veer:gabil/huge_eye/eye_protection] run effect give @s blindness 2 0 true

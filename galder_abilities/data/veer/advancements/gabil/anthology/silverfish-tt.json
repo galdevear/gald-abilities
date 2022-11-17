@@ -1,0 +1,18 @@
+{
+    "parent": "veer:gabil/anthology/silverfish",
+    "display": {
+        "icon": {
+            "item": "infested_deepslate"
+        },
+        "title": "Toasty Tectonics:",
+        "description": "At low altitudes you have haste, but lower % defense.",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "frame": "goal"
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "tick"
+        }
+    }
+}

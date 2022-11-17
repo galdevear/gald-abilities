@@ -1,0 +1,1 @@
+execute if entity @s[tag=veer.gabil.warped] run function veer:gabil/warped/used_ender_pearl-1

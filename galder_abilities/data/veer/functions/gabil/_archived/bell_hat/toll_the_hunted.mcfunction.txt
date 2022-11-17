@@ -1,0 +1,2 @@
+effect give @s glowing 6000 0 false
+advancement revoke @s only veer:gabil/bell_hat/toll_the_hunted

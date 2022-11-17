@@ -1,0 +1,55 @@
+{
+  "criteria": {
+    "enter_water_a": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:water",
+        "player": [{
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "head": {
+                    "tag": "veer:gabil/glass_blocks"
+                  },
+                  "chest": {
+                    "count": 1
+                  },
+                  "legs": {
+                    "count": 1
+                  },
+                  "feet": {
+                    "count": 1
+                  }
+        }}}}]
+      }
+    },
+    "enter_water_b": {
+      "trigger": "enter_block",
+      "conditions": {
+        "block": "water",
+        "player": [{
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "vehicle": {
+                  "type": "minecraft:boat"
+      }}}}]}
+    },
+    "delay": {"trigger": "minecraft:location"}
+  },
+  "requirements":[
+    [
+      "enter_water_a"
+    ],
+    ["enter_water_b"],
+    ["delay"]
+  ],
+  "rewards": {
+    "function": "veer:gabil/soul_fire/enter_water"
+  }
+}

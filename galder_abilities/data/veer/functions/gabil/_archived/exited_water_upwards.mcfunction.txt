@@ -1,0 +1,9 @@
+##
+ # exited_water_upwards.mcfunction
+ # 
+ # Created by Galdeveer.
+##
+
+execute if entity @s[tag=veer.gabil.fish] if entity @s[tag=veer.gabil.fish.cancelJumpLevitation.delayed_1t] run function veer:gabil/fish/exited_water_upwards-3
+execute if entity @s[tag=veer.gabil.fish] if entity @s[tag=veer.gabil.fish.cancelJumpLevitation] run function veer:gabil/fish/exited_water_upwards-4
+execute if entity @s[tag=veer.gabil.fish] if entity @s[tag=veer.gabil.fish.wasSwimming, tag=!veer.gabil.fish.cancelJumpLevitation,x_rotation=-90..-85] run function veer:gabil/fish/exited_water_upwards-1

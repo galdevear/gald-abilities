@@ -1,0 +1,18 @@
+{
+    "parent": "veer:gabil/anthology/root",
+    "display": {
+        "icon": {
+            "item": "ender_eye"
+        },
+        "title": "Chimender",
+        "description": "[Coming Soon]",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "frame": "goal"
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "tick"
+        }
+    }
+}

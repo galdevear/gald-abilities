@@ -1,0 +1,17 @@
+[
+  {
+    "condition": "minecraft:location_check",
+    "predicate": {
+      "light": {
+        "light": {
+          "min": 0,
+          "max": 12
+        }
+      }
+    }
+  },
+  {
+    "condition": "weather_check",
+    "raining": true
+  }
+]

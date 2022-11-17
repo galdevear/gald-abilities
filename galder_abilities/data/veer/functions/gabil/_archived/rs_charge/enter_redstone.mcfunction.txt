@@ -1,0 +1,8 @@
+##
+ # enter_water.mcfunction
+ # 
+ #
+ # Created by Galdeveer.
+##
+
+execute if entity @s[tag=veer.gabil.rs_charge] run function veer:gabil/robot/enter_redstone-1

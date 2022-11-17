@@ -1,0 +1,69 @@
+[
+    {
+        "condition": "entity_properties",
+        "entity": "this",
+        "predicate": {
+            "player": {
+                "looking_at": {
+                    
+                }
+            }
+        }
+    },
+    {
+        "condition": "inverted",
+        "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "player":
+                {
+                    "looking_at": {
+                        "equipment": {
+                            "head": {
+                                "items": [
+                                    "dragon_head",
+                                    "pumpkin"
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
+        "condition": "inverted",
+        "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "player":
+                {
+                    "looking_at": {
+                        "targeted_entity": {
+                            "type": "player"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
+        "condition": "inverted",
+        "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "player":
+                {
+                    "looking_at": {
+                        "targeted_entity": {
+                            "type": "player"
+                        }
+                    }
+                }
+            }
+        }
+    }
+]

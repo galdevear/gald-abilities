@@ -1,0 +1,18 @@
+{
+    "parent": "veer:gabil/anthology/root",
+    "display": {
+        "icon": {
+            "item": "ghast_tear"
+        },
+        "title": "Hobghast",
+        "description": "Coming soon",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "frame": "goal"
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "tick"
+        }
+    }
+}

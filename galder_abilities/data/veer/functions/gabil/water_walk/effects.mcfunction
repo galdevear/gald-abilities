@@ -1,0 +1,1 @@
+execute if entity @s[tag=veer.gabil.water_walk] run function veer:gabil/water_walk/effects-1

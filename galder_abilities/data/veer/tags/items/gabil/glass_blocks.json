@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+      "tinted_glass",
+      "glass",
+      "#veer:gabil/stained_glass_blocks"
+    ]
+  }

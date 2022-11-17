@@ -1,0 +1,27 @@
+{
+    "condition": "alternative",
+    "terms":
+    [
+    {
+        "condition": "location_check",
+        "offsetY": 2,
+        "predicate": {
+            "block": {
+            "tag":"veer:gabil/string_attachable"
+    }}},
+    {
+        "condition": "location_check",
+        "offsetY": 3,
+        "predicate": {
+            "block": {
+            "tag":"veer:gabil/string_attachable"
+    }}},
+    {
+        "condition": "location_check",
+        "offsetY": 4,
+        "predicate": {
+            "block": {
+            "tag":"veer:gabil/string_attachable"
+    }}}
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "parent": "veer:gabil/anthology/chimender",
+    "display": {
+        "icon": {
+            "item": "tipped_arrow"
+        },
+        "title": "Blinkback",
+        "description": "Teleport backwards along your sightline when you crouch (cooldown). Projectile and Explosion damage misfire teleport you if more than 0 dmg.",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "frame": "goal"
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "tick"
+        }
+    }
+}

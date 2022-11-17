@@ -1,0 +1,15 @@
+{
+    "replace": false,
+    "values": [
+        "#veer:gabil/glass_blocks",
+        "ice",
+        "blue_ice",
+        "packed_ice",
+        "slime_block",
+        "honey_block",
+        "ghast_tear",
+        "honey_bottle",
+        "slime_ball",
+        "wet_sponge"
+    ]
+}

@@ -1,0 +1,10 @@
+##
+ # light_firecracker.mcfunction
+ # 
+ #
+ # Created by .
+##
+
+#declare tag veer.gabil.firecracker_hat
+
+execute unless entity @s[tag=!veer.gabil.firecracker_hat,name=!"Iroh",name=!"Blustrion"] run function veer:gabil/firecracker/light_firecracker-1

@@ -1,0 +1,8 @@
+##
+ # high_grav.mcfunction
+ # 
+ #
+ # Created by Galdeveer.
+##
+
+execute as @s[tag=veer.gabil.ethereal] run function veer:gabil/ethereal/high_grav-1

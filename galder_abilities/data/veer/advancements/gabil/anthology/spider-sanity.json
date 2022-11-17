@@ -1,0 +1,18 @@
+{
+    "parent": "veer:gabil/anthology/spider",
+    "display": {
+        "icon": {
+            "item": "ender_eye"
+        },
+        "title": "Sanity",
+        "description": "Very high % dmg in dark.\n Very low % dmg in light.\nBonus: Night Vision.",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "frame": "goal"
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "tick"
+        }
+    }
+}

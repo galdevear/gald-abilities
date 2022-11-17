@@ -1,0 +1,17 @@
+[
+    {
+        "condition": "alternative",
+        "terms": [
+            {
+                "condition": "location_check",
+                "predicate": {
+                    "position": {
+                        "y": {
+                            "min": 90
+                        }
+                    }
+                }
+            }
+        ]
+    }
+]

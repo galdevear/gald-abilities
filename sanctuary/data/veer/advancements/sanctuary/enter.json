@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "enter_sanctuary": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [],
+        "location": {
+          "feature": "village"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "veer:sanctuary/enter"
+  }
+}

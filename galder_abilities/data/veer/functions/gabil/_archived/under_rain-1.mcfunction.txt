@@ -1,0 +1,8 @@
+##
+ # under_rain-1.mcfunction
+ # 
+ #
+ # Created by Galdeveer.
+##
+
+execute at @s if entity @s[predicate=veer:gabil/under_rain] run effect give @s water_breathing 180 0 true

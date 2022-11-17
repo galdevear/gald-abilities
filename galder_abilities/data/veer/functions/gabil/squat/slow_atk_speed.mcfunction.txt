@@ -1,0 +1,8 @@
+##
+ # slow_atk_speed.mcfunction
+ # 
+ #
+ # Created by Galdeveer.
+##
+
+# execute if entity @s[tag=veer.gabil.squat] run function veer:gabil/squat/slow_atk_speed-1

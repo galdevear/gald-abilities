@@ -1,0 +1,8 @@
+##
+ # drink_water.mcfunction
+ # 
+ #
+ # Created by Galdeveer.
+##
+
+execute unless entity @s[tag=!veer.gabil.fish,name=!"XxBlazingNinjaxX"] run function veer:gabil/fish/drink_water-1

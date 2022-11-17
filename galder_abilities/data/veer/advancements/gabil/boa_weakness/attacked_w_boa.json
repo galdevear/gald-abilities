@@ -1,0 +1,164 @@
+{
+    "criteria": {
+      "lvl1": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "player": [],
+          "damage": {
+            "blocked": false,
+            "type": {
+              "source_entity": {
+                "equipment": {
+                  "mainhand": {
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:bane_of_arthropods",
+                        "levels": 1
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lvl2": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "player": [],
+          "damage": {
+            "blocked": false,
+            "type": {
+              "source_entity": {
+                "equipment": {
+                  "mainhand": {
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:bane_of_arthropods",
+                        "levels": 2
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lvl3": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "player": [],
+          "damage": {
+            "blocked": false,
+            "type": {
+              "source_entity": {
+                "equipment": {
+                  "mainhand": {
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:bane_of_arthropods",
+                        "levels": 3
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lvl4": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "player": [],
+          "damage": {
+            "blocked": false,
+            "type": {
+              "source_entity": {
+                "equipment": {
+                  "mainhand": {
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:bane_of_arthropods",
+                        "levels": 4
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lvl5": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "player": [],
+          "damage": {
+            "blocked": false,
+            "type": {
+              "source_entity": {
+                "equipment": {
+                  "mainhand": {
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:bane_of_arthropods",
+                        "levels": 5
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "melee": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "player": [],
+          "damage": {
+            "blocked": false,
+            "type": {
+              "is_explosion": false,
+              "is_fire": false,
+              "is_magic": false,
+              "is_projectile": false,
+              "is_lightning": false,
+              "bypasses_armor": false,
+              "bypasses_invulnerability": false,
+              "bypasses_magic": false,
+              "source_entity": {
+                "equipment": {
+                  "mainhand": {
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:bane_of_arthropods"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "lvl1",
+        "lvl2",
+        "lvl3",
+        "lvl4",
+        "lvl5"
+      ],
+      [
+        "melee"
+      ]
+    ],
+    "rewards": {
+      "function": "veer:gabil/baa_weakness/attacked_with_bane_of_arthropods"
+    }
+  }

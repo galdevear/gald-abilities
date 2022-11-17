@@ -1,0 +1,50 @@
+##
+ # init_player_old.mcfunction
+ # 
+ #
+ # Created by Galdeveer.
+##
+
+function veer:gabil/remove_old_version_tags
+
+scoreboard players add @s veer.gb.nAbils 0
+
+# Fish
+#declare entity XxBlazing_NinjaxX
+execute if entity @s[name="XxBlazing_NinjaxX"] run function veer:gabil/fish/add
+execute if entity @s[name="XxBlazing_NinjaxX"] run function veer:gabil/water_walk/add
+execute if entity @s[name="XxBlazing_NinjaxX"] run function veer:gabil/fire_weakness/add
+
+# Undead
+tag Jub3s add veer.gabil.undead
+execute if entity @s[name="Jub3s"] run function veer:gabil/undead/add
+
+# warped
+# tag justnyxnow add veer.gabil.warped_hat
+
+#declare entity Devon_Huge
+execute if entity @s[name="Devon_Huge"] run function veer:gabil/squat/add
+# execute if entity @s[name="Devon_Huge"] run function veer:gabil/water_walk/add
+execute if entity @s[name="Devon_Huge"] run function veer:gabil/fire_weakness/add
+
+#declare entity The_Am_Sniper93
+execute if entity @s[name="The_Am_Sniper93"] run function veer:gabil/light_sf/add
+
+#declare entity Blustrion
+execute if entity @s[name="Blustrion"] run function veer:gabil/parasquid/add
+
+# Magnetic
+#declare entity Galdeveer
+#declare entity Magister_Teacup
+execute if entity @s[name="Galdeveer"] run function veer:gabil/magnetic/add
+execute if entity @s[name="Magister_Teacup"] run function veer:gabil/magnetic/add
+execute if entity @s[name="Galdeveer"] run function veer:gabil/water_weakness/add
+execute if entity @s[name="Magister_Teacup"] run function veer:gabil/water_weakness/add
+
+#declare entity HingeDH
+execute if entity @s[name="HingeDH"] run function veer:gabil/spider/add
+# Currently uses spider therefore don't need to
+# execute if entity @s[name="HingeDH"] run function veer:gabil/hang_climb/add
+
+# Warden
+# Place holder for mofo

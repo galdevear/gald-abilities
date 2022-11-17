@@ -1,0 +1,18 @@
+{
+    "parent": "veer:gabil/anthology/android",
+    "display": {
+        "icon": {
+            "item": "potato"
+        },
+        "title": "Potato Battery 2000",
+        "description": "Saturation from Potatos, Golden Food, and lightning. Poison Potatos clear poison and wither (just like honey). Hunger from all liquid consumable (soup, potions, stew, milk etc).",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "frame": "goal"
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "tick"
+        }
+    }
+}

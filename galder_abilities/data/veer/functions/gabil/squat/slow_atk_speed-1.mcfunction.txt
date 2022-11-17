@@ -1,0 +1,10 @@
+##
+ # slow_atk_speed-1.mcfunction
+ # 
+ #
+ # Created by Galdeveer.
+##
+
+# alias uuid 74cd1373-cdb8-4631-8eb8-cf1fbfa62263 veer.gabil.squat.attack_speed
+
+# attribute @s generic.attack_speed modifier add 74cd1373-cdb8-4631-8eb8-cf1fbfa62263 "veer.gabil.squat.attack_speed" 0.8 multiply

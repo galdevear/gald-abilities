@@ -1,0 +1,9 @@
+##
+ # enter_water.mcfunction
+ # 
+ #
+ # Created by Galdeveer.
+##
+
+effect give @s wither 2 0 true
+advancement revoke @s only veer:gabil/soul_fire/enter_water

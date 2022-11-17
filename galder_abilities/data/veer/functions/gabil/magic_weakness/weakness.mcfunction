@@ -1,0 +1,1 @@
+execute if entity @s[tag=veer.gabil.magic_weakness] run function veer:gabil/magic_weakness/weakness-1

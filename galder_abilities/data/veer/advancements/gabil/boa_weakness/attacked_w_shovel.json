@@ -1,0 +1,59 @@
+{
+    "criteria": {
+      "lvl1": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "player": [],
+          "damage": {
+            "blocked": false,
+            "type": {
+              "source_entity": {
+                "equipment": {
+                  "mainhand": {
+                    "items": [
+                      "wooden_shovel",
+                      "stone_shovel",
+                      "iron_shovel",
+                      "golden_shovel",
+                      "diamond_shovel",
+                      "netherite_shovel"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "melee": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "player": [],
+          "damage": {
+            "blocked": false,
+            "type": {
+              "is_explosion": false,
+              "is_fire": false,
+              "is_magic": false,
+              "is_projectile": false,
+              "is_lightning": false,
+              "bypasses_armor": false,
+              "bypasses_invulnerability": false,
+              "bypasses_magic": false
+            }
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "lvl1"
+      ],
+      [
+        "melee"
+      ]
+    ],
+    "rewards": {
+      "function": "veer:gabil/boa_weakness/attacked_w_boa"
+    }
+  }

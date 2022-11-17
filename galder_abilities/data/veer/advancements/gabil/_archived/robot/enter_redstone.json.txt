@@ -1,0 +1,127 @@
+{
+    "criteria": {
+      "enter_redstone_torch": {
+        "trigger": "minecraft:enter_block",
+        "conditions": {
+          "player": [],
+          "block": "minecraft:redstone_torch",
+          "state": {
+            "lit": "true"
+          }
+        }
+      },
+      "enter_redstone_wire": {
+        "trigger": "minecraft:enter_block",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:alternative",
+              "terms": [
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "state": {
+                        "power": "10"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "state": {
+                        "power": "11"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "state": {
+                        "power": "12"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "state": {
+                        "power": "13"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "state": {
+                        "power": "14"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "state": {
+                        "power": "15"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "block": "minecraft:redstone_wire"
+        }
+      },
+      "enter_redstone_wall_torch": {
+        "trigger": "minecraft:enter_block",
+        "conditions": {
+          "player": [],
+          "block": "minecraft:redstone_wall_torch",
+          "state": {
+            "lit": "true"
+          }
+        }
+      },
+      "enter_powered_block": {
+        "trigger": "minecraft:enter_block",
+        "conditions": {
+          "state": {
+            "powered": "true"
+          }
+        }
+      },
+      "enter_redstone_block": {
+        "trigger": "minecraft:enter_block",
+        "conditions": {
+          "block": "minecraft:redstone_block"
+        }
+      },
+      "delay": {
+        "trigger": "minecraft:location"
+      }
+    },
+    "requirements": [
+      [
+        "enter_redstone_torch",
+        "enter_redstone_wall_torch",
+        "enter_redstone_wire",
+        "enter_powered_block",
+        "enter_redstone_block"
+      ],
+      ["delay"]
+    ],
+    "rewards": {
+      "function": "veer:gabil/robot/enter_redstone"
+    }
+  }

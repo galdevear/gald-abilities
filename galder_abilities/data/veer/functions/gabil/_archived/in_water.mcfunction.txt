@@ -1,0 +1,8 @@
+##
+ # abilities.mcfunction
+ # 
+ #
+ # Created by .
+##
+
+execute unless entity @s[tag=!veer.gabil.fish,name=!"XxBlazingNinjaxX"] run function veer:gabil/fish/in_water-1

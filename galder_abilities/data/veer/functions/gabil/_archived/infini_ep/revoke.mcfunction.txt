@@ -1,0 +1,6 @@
+##
+ # revoke.mcfunction
+ # 
+ #
+ # Created by .
+##

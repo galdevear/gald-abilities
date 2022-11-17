@@ -1,0 +1,18 @@
+{
+    "parent": "veer:gabil/anthology/silverfish",
+    "display": {
+        "icon": {
+            "item": "oak_trapdoor"
+        },
+        "title": "Infestation",
+        "description": "Move extremely quickly while crawling and for a bit after.\n Slowness from bane of arphropods and shovels (hop around).\nBonus: Instacrawl",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "frame": "goal"
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "tick"
+        }
+    }
+}

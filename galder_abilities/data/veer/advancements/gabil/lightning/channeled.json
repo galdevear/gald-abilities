@@ -1,0 +1,13 @@
+{
+    "criteria": {
+
+        "requirement":{
+            "trigger": "channeled_lightning",
+            "conditions": {
+            }
+        }
+    },
+    "rewards": {
+        "function": "veer:gabil/lightning/channeled"
+    }
+}

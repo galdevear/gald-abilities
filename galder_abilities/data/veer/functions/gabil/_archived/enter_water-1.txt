@@ -1,0 +1,29 @@
+##
+ # enter_water.mcfunction
+ # 
+ #
+ # Created by Galdeveer.
+##
+#>@private
+#declare tag veer.robot.enter_water.leftElseRight
+#>@private
+#declare tag veer.robot.enter_water.doGlitch
+
+effect give @s poison 2 0 true
+execute at @s positioned ~ ~1 ~ run particle campfire_signal_smoke
+
+# effect give @s night_vision 2 0 false
+execute if entity @s[predicate=veer:gabil/robot/50] run tag @s add veer.robot.enter_water.leftElseRight
+
+tag @s[predicate=veer:gabil/robot/glitch_chance] add veer.robot.enter_water.doGlitch
+
+tp @s[tag=veer.robot.enter_water.leftElseRight,tag=veer.robot.enter_water.doGlitch,predicate=veer:gabil/robot/50] ~ ~ ~ facing ^0.8 ^ ^1
+tp @s[tag=veer.robot.enter_water.leftElseRight,tag=veer.robot.enter_water.doGlitch,predicate=veer:gabil/robot/50] ~ ~ ~ facing ^0.8 ^ ^1
+# execute as @s[tag=veer.robot.enter_water.leftElseRight] run say left
+tp @s[tag=!veer.robot.enter_water.leftElseRight,tag=veer.robot.enter_water.doGlitch,predicate=veer:gabil/robot/50] ~ ~ ~ facing ^-0.8 ^ ^1
+tp @s[tag=!veer.robot.enter_water.leftElseRight,tag=veer.robot.enter_water.doGlitch,predicate=veer:gabil/robot/50] ~ ~ ~ facing ^-0.8 ^ ^1
+# execute as @s[tag=!veer.robot.enter_water.leftElseRight] run say right
+
+advancement revoke @s only veer:gabil/robot/enter_water
+tag @s[tag=veer.robot.enter_water.leftElseRight] remove veer.robot.enter_water.leftElseRight
+tag @s[tag=veer.robot.enter_water.doGlitch] remove veer.robot.enter_water.doGlitch

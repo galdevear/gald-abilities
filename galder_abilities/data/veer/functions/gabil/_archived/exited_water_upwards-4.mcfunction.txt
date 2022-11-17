@@ -1,0 +1,10 @@
+##
+ # exited_water_upwards-3.mcfunction
+ # 
+ #
+ # Created by Galdeveer.
+##
+
+tag @s[tag=veer.gabil.fish.cancelJumpLevitation.delayed_2t] add veer.gabil.fish.cancelJumpLevitation.delayed_1t
+tag @s[tag=veer.gabil.fish.cancelJumpLevitation.delayed_2t] remove veer.gabil.fish.cancelJumpLevitation
+tag @s add veer.gabil.fish.cancelJumpLevitation.delayed_2t

@@ -1,0 +1,8 @@
+##
+ # return_to_team.mcfunction
+ # 
+ #
+ # Created by Galdeveer.
+##
+
+execute if entity @s[tag=veer.gabil.spider] run team join veer.ga.spider

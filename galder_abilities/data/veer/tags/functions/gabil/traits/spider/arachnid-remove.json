@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "veer:gabil/spider/remove_arachnid",
+        "veer:gabil/boa_weakness/remove",
+        "veer:gabil/hang_climb/remove"
+    ]
+}

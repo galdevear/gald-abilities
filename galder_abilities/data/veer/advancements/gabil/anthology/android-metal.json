@@ -1,0 +1,18 @@
+{
+    "parent": "veer:gabil/anthology/android",
+    "display": {
+        "icon": {
+            "item": "lodestone"
+        },
+        "title": "Metal Skin",
+        "description": "Various passive magnetic interactions with metal blocks. Blindness in water and rain. (Keep in mind that you can't start running with blindness, but it won't stop you if you already are. Same for swimming.)",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "frame": "goal"
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "tick"
+        }
+    }
+}

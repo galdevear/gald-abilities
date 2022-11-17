@@ -1,0 +1,38 @@
+[
+    {
+        "condition": "weather_check",
+        "raining": false,
+        "thundering": false
+    },
+    {
+        "condition": "location_check",
+        "predicate": {
+            "dimension": "overworld"
+        }
+
+    },
+    {
+        "condition": "reference",
+        "name": "veer:gabil/is_day"
+    },
+    {
+        "condition": "inverted",
+        "term": {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "head": {
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
+        "condition": "reference",
+        "name": "veer:gabil/under_sky"
+    }
+]

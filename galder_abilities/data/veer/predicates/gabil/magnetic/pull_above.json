@@ -1,0 +1,43 @@
+[
+    {
+        "condition": "alternative",
+        "terms": [
+            {
+                "offsetY": 1,
+                "condition": "location_check",
+                "predicate": {
+                    "block": {
+                        "tag": "veer:gabil/magnetic/copper"
+                    }
+                }
+            },
+            {
+                "offsetY": 2,
+                "condition": "location_check",
+                "predicate": {
+                    "block": {
+                        "tag": "veer:gabil/magnetic/copper"
+                    }
+                }
+            },
+            {
+                "offsetY": 3,
+                "condition": "location_check",
+                "predicate": {
+                    "block": {
+                        "tag": "veer:gabil/magnetic/copper"
+                    }
+                }
+            },
+            {
+                "offsetY": 4,
+                "condition": "location_check",
+                "predicate": {
+                    "block": {
+                        "tag": "veer:gabil/magnetic/copper"
+                    }
+                }
+            }
+        ]
+    }
+]

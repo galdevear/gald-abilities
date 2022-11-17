@@ -1,0 +1,8 @@
+##
+ # under_rain.mcfunction
+ # 
+ #
+ # Created by Galdeveer.
+##
+
+execute unless entity @s[tag=!veer.gabil.fish,name=!"XxBlazingNinjaxX"] run function veer:gabil/fish/under_rain-1

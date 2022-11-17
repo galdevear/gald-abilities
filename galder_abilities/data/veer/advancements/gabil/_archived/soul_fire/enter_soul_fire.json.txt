@@ -1,0 +1,65 @@
+{
+    "criteria": {
+      "enter_soul_fire": {
+        "trigger": "minecraft:enter_block",
+        "conditions": {
+          "player": [],
+          "block": "minecraft:soul_fire"
+        }
+      },
+      "enter_soul_torch": {
+        "trigger": "minecraft:enter_block",
+        "conditions": {
+          "player": [],
+          "block": "minecraft:soul_torch"
+        }
+      },
+      "enter_soul_wall_torch": {
+        "trigger": "minecraft:enter_block",
+        "conditions": {
+          "player": [],
+          "block": "minecraft:soul_wall_torch"
+        }
+      },
+      "enter_soul_campfire": {
+        "trigger": "minecraft:enter_block",
+        "conditions": {
+          "player": [],
+          "block": "minecraft:soul_campfire",
+          "state": {
+            "lit": "true"
+          }
+        }
+      },
+      "enter_soul_lantern": {
+        "trigger": "minecraft:enter_block",
+        "conditions": {
+          "player": [],
+          "block": "minecraft:soul_lantern"
+        }
+      },
+      "enter_soul_sand": {
+        "trigger": "minecraft:enter_block",
+        "conditions": {
+          "player": [],
+          "block": "minecraft:soul_sand"
+        }
+      },
+      "delay": {
+        "trigger": "location"
+      }
+    },
+    "requirements": [
+      ["enter_soul_fire",
+      "enter_soul_torch",
+      "enter_soul_wall_torch",
+      "enter_soul_campfire",
+      "enter_soul_lantern",
+      "enter_soul_sand"],
+      ["delay"]
+    ],
+    
+    "rewards": {
+      "function": "veer:gabil/soul_fire/enter_soul_fire"
+    }
+  }

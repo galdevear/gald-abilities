@@ -1,0 +1,10 @@
+##
+ # drink_water.mcfunction
+ # 
+ # Created by Galdeveer.
+##
+
+effect give @s night_vision 300 0 true
+title @s actionbar "You pour water directly on your HUGE eye"
+title @s times 3 40 3
+advancement revoke @s only veer:gabil/huge_eye/drink_water

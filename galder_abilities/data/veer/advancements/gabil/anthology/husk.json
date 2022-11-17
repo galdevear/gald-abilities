@@ -1,0 +1,18 @@
+{
+    "parent": "veer:gabil/anthology/root",
+    "display": {
+        "icon": {
+            "item": "zombie_head"
+        },
+        "title": "Zombie",
+        "description": "[Coming Soon]: Allied with zombies. Instant damage and Instant health are swapped. Killing mobs provides slight healing. Sprinting/flying in bright light burns.\nSmite enchantment inflicts wither effect on you, but your attacks inflict hunger on other players.",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "frame": "goal"
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "tick"
+        }
+    }
+}

@@ -1,0 +1,8 @@
+##
+ # enter_water.mcfunction
+ # 
+ #
+ # Created by Galdeveer.
+##
+
+execute unless entity @s[name=!"Galdeveer",name=!"FireboltAA"] run function veer:gabil/soul_fire/enter_water-1

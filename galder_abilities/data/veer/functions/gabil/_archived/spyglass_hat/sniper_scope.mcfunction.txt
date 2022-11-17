@@ -1,0 +1,3 @@
+
+#declare entity The_Am_Sniper93
+execute unless entity @s[tag=!veer.gabil.sniper,name=!"The_Am_Sniper93"] run function veer:gabil/spyglass_hat/sniper_scope-1

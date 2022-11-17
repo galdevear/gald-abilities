@@ -1,0 +1,25 @@
+##
+ # abilities.mcfunction
+ # 
+ #
+ # Created by .
+##
+#declare tag veer.gabil.fish.has_water_hat
+#declare tag veer.gabil.fish.inWater
+#declare tag veer.gabil.fish.wasSwimming
+
+# tag @s[tag=!veer.gabil.fish.cancelJumpLevitation] add veer.gabil.fish.inWater
+# Remove wasSwimming and readd if still swimming
+# tag @s remove veer.gabil.fish.wasSwimming
+# tag @s[predicate=veer:gabil/is_swimming] add veer.gabil.fish.wasSwimming
+
+effect give @s[predicate=veer:gabil/fish/do_dolphins_grace] dolphins_grace 2 2 true
+effect give @s conduit_power 1 30 true
+effect give @s[tag=!veer.gabil.fish.cancelJumpLevitation] slow_falling 1 254 true
+# Out of water air timer
+execute if entity @s[predicate=veer:gabil/fish/has_water_hat] run tag @s add veer.gabil.fish.has_water_hat
+effect give @s water_breathing 180 0 true
+effect give @s[tag=veer.gabil.fish.has_water_hat] water_breathing 421 1 true
+tag @s remove veer.gabil.fish.has_water_hat
+
+advancement revoke @s only veer:gabil/fish/enter_water

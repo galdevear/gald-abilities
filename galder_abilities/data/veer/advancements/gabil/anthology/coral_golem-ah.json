@@ -1,0 +1,18 @@
+{
+    "parent": "veer:gabil/anthology/coral_golem",
+    "display": {
+        "icon": {
+            "item": "dead_brain_coral"
+        },
+        "title": "Play Dead",
+        "description": "Crouch to heal. Blindness when below half health.",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "frame": "goal"
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "tick"
+        }
+    }
+}

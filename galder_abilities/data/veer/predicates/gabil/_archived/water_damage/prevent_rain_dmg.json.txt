@@ -1,0 +1,20 @@
+[
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "head": {
+          "tag": "veer:gabil/glass_blocks"
+        },
+        "chest": {
+          "count": 1
+        },
+        "legs": {
+          "count": 1
+        },
+        "feet": {
+          "count": 1
+        }
+  }}}
+]

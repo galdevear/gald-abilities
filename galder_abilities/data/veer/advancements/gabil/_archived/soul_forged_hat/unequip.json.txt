@@ -1,0 +1,31 @@
+{
+    "criteria": {
+        "delay":{
+            "trigger": "location"
+        },
+        "equip":{
+            "trigger": "inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "inverted",
+                        "term": {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "equipment": {
+                                    "head": {
+                                        "tag": "veer:gabil/soul_forged_hat"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "veer:gabil/soul_forged_hat/unequip"
+    }
+}

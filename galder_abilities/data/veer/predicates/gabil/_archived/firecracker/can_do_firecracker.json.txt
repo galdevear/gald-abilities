@@ -1,0 +1,16 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate":
+    {
+        "flags": {
+            "is_sneaking": false,
+            "is_on_fire": true
+        },
+        "equipment": {
+            "head": {
+                "tag": "veer:gabil/firecracker/hats"
+            }
+        }
+    }
+}

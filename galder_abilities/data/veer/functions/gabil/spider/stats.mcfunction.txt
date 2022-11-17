@@ -1,0 +1,9 @@
+##
+ # adjust_to_light.mcfunction
+ # 
+ #
+ # Created by Galdeveer.
+##
+#declare entity HingeDH
+
+execute if entity @s[tag=veer.gabil.spider] run function veer:gabil/spider/stats-1

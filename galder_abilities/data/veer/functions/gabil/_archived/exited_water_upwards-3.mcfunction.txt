@@ -1,0 +1,13 @@
+##
+ # exited_water_upwards-3.mcfunction
+ # 
+ #
+ # Created by Galdeveer.
+##
+
+# Second tick remove levitation; then, remove leftWater ending all flow of control until the advancement triggers again.
+effect clear @s levitation
+effect clear @s slow_falling
+tag @s remove veer.gabil.fish.leftWater
+tag @s remove veer.gabil.fish.cancelJumpLevitation.delayed_1t
+tag @s remove veer.gabil.fish.cancelJumpLevitation.delayed_2t

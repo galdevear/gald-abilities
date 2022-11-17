@@ -1,0 +1,13 @@
+##
+ # remove_old_version_tags.mcfunction
+ # 
+ #
+ # Created by Galdeveer.
+##
+
+tag @s remove veer.gabil.player.v5
+tag @s remove veer.gabil.player.v4
+tag @s remove veer.gabil.player.v3
+tag @s remove veer.gabil.player.v2
+tag @s remove veer.gabil.player.v1
+tag @s remove veer.gabil.player.v0

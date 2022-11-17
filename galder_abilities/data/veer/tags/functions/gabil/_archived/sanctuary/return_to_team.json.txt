@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "veer:gabil/spider/return_to_team",
+        "veer:gabil/undead/return_to_team"
+    ]
+}

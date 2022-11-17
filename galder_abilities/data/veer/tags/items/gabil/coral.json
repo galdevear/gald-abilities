@@ -1,0 +1,20 @@
+{
+    "replace": false,
+    "values": [
+        "fire_coral",
+        "horn_coral",
+        "tube_coral",
+        "brain_coral",
+        "bubble_coral",
+        "fire_coral_fan",
+        "horn_coral_fan",
+        "tube_coral_fan",
+        "brain_coral_fan",
+        "bubble_coral_fan",
+        "fire_coral_block",
+        "horn_coral_block",
+        "tube_coral_block",
+        "brain_coral_block",
+        "bubble_coral_block" 
+    ]
+}

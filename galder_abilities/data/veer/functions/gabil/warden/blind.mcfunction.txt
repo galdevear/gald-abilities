@@ -1,0 +1,9 @@
+##
+ # adjust_to_light.mcfunction
+ # 
+ #
+ # Created by Galdeveer.
+##
+
+#declare tag veer.gabil.warden
+execute if entity @s[tag=veer.gabil.warden] run function veer:gabil/warden/blind-1
